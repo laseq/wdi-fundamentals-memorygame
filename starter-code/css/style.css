@@ -29,10 +29,18 @@ body{
 
 h1{
 	color: rgb(2, 132, 130);
+	font-size: 40px;
 }
 
 h2{
 	color: #ffd700;
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+
+h3{
+	font-size: 24px;
+	margin-bottom: 5px;
 }
 
 .board{
@@ -49,6 +57,58 @@ h2{
 	border-radius: 10px;
 	margin: 8%;
 	float: left;
+}
+
+img{
+	height: 200px;
+	width: 150px;
+}
+
+
+.status{
+	font-size: 24px;
+	font-width: bold;
+	color: rgb(15,15,15);;
+}
+
+.win-status{
+	color: rgb(15, 200, 50);
+}
+
+.lose-status{
+	color: rgb(158, 93, 20);
+}
+
+
+#score-board{
+	width: 0 auto;
+	margin: 0 0 0 1%;
+	padding: 1%;
+	text-align: center;
+}
+
+.wins{
+	font-weight: bold;
+	font-size: 30px;
+	color: rgb(15,15,15);
+}
+
+#score{
+	color: rgb(15,15,15);
+}
+
+button{
+	margin: 0 0 2% 0;
+	padding: 1%;
+	background-color: rgb(168, 119, 42);
+	border: 1px solid rgb(168, 119, 42);
+	color: rgb(225,225,225);
+	font-size: 24px;
+	border-radius: 5px;
+}
+
+button:hover{
+	box-shadow: 2px 2px 2px #888888;
 }
 
 span{
